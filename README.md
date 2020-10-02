@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Initialize the project with create react app ( using npx create-react-app ./)
+
+### Dependacies
+1- npm i @alan-ai/alan-sdk-web   //Allow us to use voice capabilities
+2- @material-ui/core
+3- classnames          // help the components with multiple classnames
+4- words-to-numbers   //npm library which parse the words to actual number
