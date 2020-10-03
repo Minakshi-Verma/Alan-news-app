@@ -75,3 +75,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 2- @material-ui/core
 3- classnames          // help the components with multiple classnames
 4- words-to-numbers   //npm library which parse the words to actual number
+
+
+### Alan AI software integration
+1. Go to alan.app and sign up for a free account
+2.  You will recive limited free integration that you can use to test out your voice commands
+3. Click integration and generate Alan API key
+4. Initialize alanbtn in your react application with the alanKey you generated
+5. Test out your react commands in alan studio as well as on your browser
+Please check the alan docs for more info https://alan.app/docs/usage/getting-started)
+
+### webApi https://newsapi.org/
