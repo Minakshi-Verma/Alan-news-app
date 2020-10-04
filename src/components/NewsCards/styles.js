@@ -5,5 +5,12 @@ export default makeStyles({
         padding: '0 5%',
         width: '100%',
         margin: '0'
-    }
+    },
+    card: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        borderBottom: '10px solid white',       
+        width:'40px'
+    },
 })
