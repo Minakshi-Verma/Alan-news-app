@@ -11,7 +11,7 @@ export default makeStyles({
         flexDirection: 'column',
         justifyContent: 'space-between',
         alignItems:'flexstart',
-        borderBottom: '10px solid #3a3b37',       
+        borderBottom: '10px solid #04071A',       
         width:'100%',
         height: '45vh', 
         padding:'10%',

@@ -57,34 +57,28 @@ export default makeStyles((theme) => ({
         backgroundImage: 'url("https://thetechpanda.com/wp-content/uploads/2018/08/voice-recog-960x440.jpeg")',
         backgroundPosition:"center center",
         backgroundRepeat:'no-repeat',
-        backgroundSize:'95%',
-        overflow:'hidden',
-      
+        backgroundSize:'95%',      
         height: '35vh',
-        margin: ' 0 auto',
-        
-        position: 'relative',
-        // backgroundSize: '100%',
-      padding: '0 3%',
-      display: 'flex',
-      justifyContent: 'space-around',
-    //   alignItems: 'center',
-      width: '100%',
-      [theme.breakpoints.down('sm')]: {
+        margin: ' 0 auto',        
+        position: 'relative',        
+        padding: '0 3%',
+        display: 'flex',
+        justifyContent: 'space-around',    
+        width: '100%',
+       [theme.breakpoints.down('sm')]: {
         flexDirection: 'column-reverse',
         textAlign: 'center',
       },
     },
-    alanLogo: {
-        // backgroundImage: 'url("https://thetechpanda.com/wp-content/uploads/2018/08/voice-recog-960x440.jpeg")',
-        // backgroundSize: '100%',
-        // width: '100%',
-      height: '27vmin',
-      borderRadius: '15%',
-    //   padding: '0 5%',
-      margin: '2% 0',
+    alanLogo: {      
+        width: '28%',
+        height: '30vmin',
+        borderRadius: '10%',    
+        margin: '1.5% 0',
       [theme.breakpoints.down('sm')]: {
-        height: '35vmin',
+        height: '37vmin',
+        margin: '2% 0',
+      
       },
     },
   }));

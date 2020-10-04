@@ -7,7 +7,7 @@ import useStyles from './styles.js'
 //Information cards to make user understand Alan Ai app work flow with examples
 
 const infoCards = [
-    { color: '#00838f', title: 'Latest News', text: 'Give me the latest news...' },
+    { color: '#082348', title: 'Latest News', text: 'Give me the latest news...' },
     { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, Health, Science, Sports, Technology...', text: 'Give me the latest Business news...' },
     { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with Bitcoin...' },
     { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN...' },
