@@ -2,7 +2,7 @@ import {makeStyles} from '@material-ui/core/styles'
 
 export default makeStyles({
     container:{
-        padding: '0 5%',
+        padding: '3% 5%',
         width: '100%',
         margin: '0'
     },
@@ -10,7 +10,17 @@ export default makeStyles({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-        borderBottom: '10px solid white',       
-        width:'40px'
+        alignItems:'flexstart',
+        borderBottom: '10px solid #3a3b37',       
+        width:'100%',
+        height: '45vh', 
+        padding:'10%',
+        borderRadius: 10,
+        color:'white'
     },
+    infoCard:{
+        display: 'flex',
+        flexDirection: 'column',
+        // textAlign: 'center',  
+    }
 })

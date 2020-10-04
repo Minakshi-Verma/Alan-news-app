@@ -7,10 +7,10 @@ import useStyles from './styles.js'
 //Information cards to make user understand Alan Ai app work flow with examples
 
 const infoCards = [
-    { color: '#00838f', title: 'Latest News', text: 'Give me the latest news' },
-    { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
-    { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with PlayStation 5' },
-    { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN' },
+    { color: '#00838f', title: 'Latest News', text: 'Give me the latest news...' },
+    { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, Health, Science, Sports, Technology...', text: 'Give me the latest Business news...' },
+    { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with Bitcoin...' },
+    { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN...' },
   ];
 
 const NewsCards = ({articles}) => {
@@ -24,7 +24,13 @@ const NewsCards = ({articles}) => {
                     {infoCards.map(infoCard =>(
                         <Grid item xs={12} sm={6} md={4} lg={3}  className={classes.infoCard}>
                             <div className={classes.card} style={{backgroundColor:infoCard.color}}>
-                                <Typography variant="h5" component="h5">{infoCard.title}</Typography>
+                                <Typography variant="h5" style={{color:'#e9f0b9'}}><strong>{infoCard.title}</strong></Typography>
+                                {
+                                    infoCard.info ?
+                                    (<Typography variant="h6"><strong>{infoCard.title.split(" ")[2]}:</strong> <br />{infoCard.info}</Typography>):
+                                    <Typography variant="h5"><strong><i>Alan at your service!</i></strong></Typography>
+                                }
+                                <Typography variant="h6"><strong>Try saying:</strong> <br /><i>{infoCard.text}</i></Typography>
                             </div>
                             {/* <InCard  infoCard = {infoCard}/> */}
                         </Grid>
