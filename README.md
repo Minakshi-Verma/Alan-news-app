@@ -1,4 +1,7 @@
-## Voice_enabled-news_app
+![stars](https://img.shields.io/github/stars/Minakshi-Verma/Alan-news-app) ![MIT](https://img.shields.io/github/license/Minakshi-Verma/Alan-news-app) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![Maintainability](https://codeclimate.com/github/Minakshi-Verma/Alan-news-app/maintainability) ![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FMinakshi-Verma%2FAlan-news-app
+)<br /> <br /><br /> https://img.shields.io/twitter/follow/minakshi_12?label=Follow&style=social
+
+### Voice_enabled Alan-news-app
 
 Alan news app is voice enabled smart news app that gives you latest news around you just using voice commands. You can find news from your favorite news source ( like, CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...) based on several different categories(like, business, entertainment, health, science, sports, general, technology...) or search terms(like, Bitcoin, PlayStation 5, Smartphones, Donald Trump...). The news are fetched from trusted https://newsapi.org/. To make this app more fun, we have integrated everyday coversation script as well.  
 
@@ -9,9 +12,11 @@ Alan news app is voice enabled smart news app that gives you latest news around 
 <br/>
 
 
+### Tech-stack: html| CSS| JS| React| Material UI| Alan AI| Vercel <br />
+
 ### This project was bootstrapped/initialized with [Create React App](https://github.com/facebook/create-react-app).( using npx create-react-app ./)<br />
 
-## Available Scripts
+### Available Scripts
 In the project directory, you can run:
 
 ### `yarn start`
