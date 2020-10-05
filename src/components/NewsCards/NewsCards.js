@@ -30,7 +30,7 @@ const NewsCards = ({articles, activeArticle}) => {
                                     (<Typography variant="h6"><strong>{infoCard.title.split(" ")[2]}:</strong> <br />{infoCard.info}</Typography>):
                                     <Typography variant="h5"><strong><i>Alan at your service!</i></strong></Typography>
                                 }
-                                <Typography variant="h6"><strong>Try saying:</strong> <br /><i>{infoCard.text}</i></Typography>
+                                <Typography variant="body2"><strong>Try saying:</strong> <br /><i>{infoCard.text}</i></Typography>
                             </div>
                             {/* <InCard  infoCard = {infoCard}/> */}
                         </Grid>
