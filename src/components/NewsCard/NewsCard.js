@@ -25,7 +25,7 @@ const NewsCard = ({article:{description, publishedAt, source, title, url, urlToI
     }, [i, activeArticle, elRefs])
 
     return (
-        <Card ref = {elRefs[i]} className={classNames(classes.card, activeArticle ===i+1 ? classes.activeCard:null)}>
+        <Card ref = {elRefs[i]} className={classNames(classes.card, activeArticle ===i ? classes.activeCard:null)}>
             <CardActionArea href={url} target="_blank">  
                 <CardMedia className={classes.media} image={urlToImage || 'https://www.indiafellow.org/blog/wp-content/uploads/2020/05/Marketplace-Lending-News.jpg'} />
                 <div className={classes.details}>

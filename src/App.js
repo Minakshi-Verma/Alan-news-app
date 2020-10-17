@@ -15,7 +15,7 @@ const App = () => {
     //state for all the articles from APTI and activeArticle
     const [newsArticles, setNewsArticles] = useState([])
     //We are starting from index 0 since this would be the index he would be currently reading
-    const [activeArticle, setActiveArticle] = useState(0)
+    const [activeArticle, setActiveArticle] = useState(-1)
     
     useEffect(()=>{
         alanBtn({
@@ -25,7 +25,7 @@ const App = () => {
                     setNewsArticles(articles);
 
                     //reset the activeArticle eachtime
-                    //   setActiveArticle(-1);              
+                      setActiveArticle(-1);              
                 }  
                 else if(command==='highlight') {
                     //We will change the state based on previous state
